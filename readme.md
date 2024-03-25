@@ -52,7 +52,7 @@ Names are personally identifiable (or could be) favourite colours are not.
 PII should not be visible to some users of your system.
 In those cases, we can cause all PiiFields to return redactions ie: "***"
 
-```c
+```
 from people.models import Person
 from pii_mask.pii_context import hide_pii, show_pii
 
@@ -97,3 +97,7 @@ MIDDLEWARE = [
 ]
 
 ```
+
+### Demo
+
+!["Mask/Unmask Demo"](/mask_unmask_demo.gif)
